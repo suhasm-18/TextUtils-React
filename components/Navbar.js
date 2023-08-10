@@ -26,3 +26,8 @@ export default function Navbar(props) {
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="/">Something else here</a>
         </div>
+Navbar.propTypes = {
+    title: PropTypes.string.isRequired,
+    aboutText: PropTypes.string.isRequired
+}
+
